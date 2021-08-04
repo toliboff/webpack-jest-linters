@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(74, 74, 75);
+}
+
+body {
+  background-color: #f0eeee;
+}
+
+h1 {
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 3rem;
+  background-color: #6d6b6b;
+  box-shadow: 0 0 2px #7e7c7c;
+}
+
+h2 {
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+
+i {
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 5rem;
+  margin: 5% 10%;
+}
+
+.btn {
+  padding: 0.6rem 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(21, 185, 226);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0.5rem 1rem;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #06a0c7;
+}
+
+.scores {
+  border-radius: 5px;
+}
+
+.title {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(228, 225, 225);
+}
+
+.score-list {
+  list-style: none;
+}
+
+li {
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+li:nth-child(odd) {
+  background-color: #a5a4a4;
+}
+
+li:nth-child(odd) span {
+  color: #fff;
+}
+
+.add-score {
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 5px 8px #afadad;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.form {
+  margin: 2rem;
+  flex-direction: column;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.5rem;
+  margin: 0.8rem 1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(49, 208, 248);
+}
